@@ -24,3 +24,7 @@ Note: Due to the hardware specification of my laptop, the installation ran infin
 
 Now I was able to compile and build the source code successfully.
 ## Running Simulation
+You can run the simmulation using the commands given below. There are builtin simulation available. So I will write the command to run the simulation for "ndn-simple" builtin simulation.
+##### ./waf --run=ndn-simple
+You can also run in the logging mode. Which will be more informative.
+##### NS_LOG=ndn.Producer:ndn.Consumer ./waf --run=ndn-simple
