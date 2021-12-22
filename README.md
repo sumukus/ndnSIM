@@ -1,4 +1,4 @@
-# ndnSIM
+# ndnSIM Simulator
 Named Data Networking(NDN) is one of the architectures of Information-Centric Networking.
 ## Installation of Required Packages
 I have used Ubuntu 20.04 to run and simulate it.
