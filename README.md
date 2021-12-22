@@ -12,9 +12,15 @@ Make the directory called ndnSIM and navigate inside it. Then download the follo
 2. ##### git clone https://github.com/named-data-ndnSIM/pybindgen.git pybindgen
 3. ##### git clone --recursive https://github.com/named-data-ndnSIM/ndnSIM.git ns-3/src/ndnSIM
 
-## Compiling and Running ndnSIM
+## Compiling and Running ndnSIM with Visualizer.
 1. ##### cd ns-3
 2. ##### ./waf configure --enable-examples
 3. ##### ./waf
+Note: Due to the hardware specification of my laptop, the installation ran infinitely. The latop RAM was just 4GiB. It used up 100% of it. So, the reason was due to the compilation of visualizer. Therefore, I decided to disable the visualizer and install it.
+### Compiling and Running ndnSIM without Visualizer.
+1. ##### cd ns-3
+2. ##### ./waf configure --disable-python --enable-examples
+3. ##### ./waf
 
-## Ru
+Now I was able to compile and build the source code successfully.
+## Running Simulation
