@@ -1,5 +1,5 @@
 # ndnSIM
-Named Data Networking(NDN) is one of the architecture of Information-Centric Networking. T
+Named Data Networking(NDN) is one of the architectures of Information-Centric Networking.
 ## Installation of Required Packages
 I have used Ubuntu 20.04 to run and simulate it.
 1. ##### sudo apt install build-essential libsqlite3-dev libboost-all-dev libssl-dev git python3-setuptools castxml
@@ -16,8 +16,8 @@ Make the directory called ndnSIM and navigate inside it. Then download the follo
 1. ##### cd ns-3
 2. ##### ./waf configure --enable-examples
 3. ##### ./waf
-Note: Due to the hardware specification of my laptop, the installation ran infinitely. The latop RAM was just 4GiB. It used up 100% of it. So, the reason was due to the compilation of visualizer. Therefore, I decided to disable the visualizer and install it.
-### Compiling and Running ndnSIM without Visualizer.
+Note: Due to the hardware specification of my laptop, the installation ran infinitely. The laptop RAM was just 4GiB. It used up 100% of it. So, the reason was due to the compilation of visualizers. Therefore, I decided to disable the visualizer and install it.
+## Compiling and Running ndnSIM without Visualizer.
 1. ##### cd ns-3
 2. ##### ./waf configure --disable-python --enable-examples
 3. ##### ./waf
